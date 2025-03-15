@@ -3,12 +3,11 @@
   "version": "1.0.0",
   "type": "commonjs",
   "main": "dist/index.js",
- 
-"scripts": {
-  "build": "tsc",
-  "start": "node dist/index.js",
-  "vercel-build": "tsc"
-},
+  "scripts": {
+    "compile": "tsc",
+    "start": "node ./dist/index.js",
+    "build": "npm run compile"
+  },
 
   "keywords": [],
   "author": "",

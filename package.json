@@ -2,8 +2,11 @@
   "name": "ucv-email-relay-service",
   "version": "1.0.0",
   "main": "index.js",
+ 
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "tsc",
+    "start": "node ./dist/index.js",
+    "build": "npm run compile"
   },
   "keywords": [],
   "author": "",
